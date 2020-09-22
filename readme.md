@@ -1,8 +1,8 @@
 [![](https://jitpack.io/v/Mr-IK/FlagManager.svg)](https://jitpack.io/#Mr-IK/FlagManager)
 # FlagManager 使い方
 
-###導入
-####Maven
+## 導入
+#### Maven
 ```pom
     <repository>
        <id>jitpack.io</id>
@@ -15,16 +15,16 @@
         <version>1.0.1</version>
     </dependency>
 ```
-####Gradle
+#### Gradle
 ```gradle
 maven { url 'https://jitpack.io' }
 
 implementation 'com.github.Mr-IK:FlagManager:1.0.1'
 ```
 
-###使用方法
+### 使用方法
 
-####Java
+#### Java
 
 ```java
 //フラグを上げる(onにする)
@@ -55,7 +55,7 @@ if(FlagAPI.isPlayerHasCount(player,"testcount")){
   //hogehoge
 }
 ```
-####Kotlin
+#### Kotlin
 ```kotlin
 FlagAPI.playerFlagUp(player, "testflag")
 
