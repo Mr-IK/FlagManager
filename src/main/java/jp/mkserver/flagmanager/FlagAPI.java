@@ -48,4 +48,8 @@ public class FlagAPI {
             instance.countUpdate(p, counter_name, count);
         });
     }
+
+    public static boolean isPlayerHasCount(Player p,String counter_name){
+        return instance.hasCount(p,counter_name);
+    }
 }
