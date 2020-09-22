@@ -1,0 +1,10 @@
+name: FlagManager
+version: ${project.version}
+main: jp.mkserver.flagmanager.FlagManager
+api-version: 1.13
+description: FlagManager
+commands:
+  flag:
+    description: FlagManager
+    usage: /<command>
+    default: op
